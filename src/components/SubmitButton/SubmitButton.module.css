@@ -1,0 +1,12 @@
+.SubmitButton {
+    background-color: #26C2AE;
+    border-radius: 5px;
+    color:#00474B;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    text-transform:uppercase;
+}
+

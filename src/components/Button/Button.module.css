@@ -1,0 +1,14 @@
+.CalcButton {
+    background-color: #00474B;
+    border-radius: 5px;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 0;
+    text-transform:uppercase;
+    cursor: pointer;
+    border: none;
+    width:117px;
+    padding:10px 0;
+}

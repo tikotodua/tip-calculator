@@ -1,0 +1,94 @@
+.App {
+  background-color: #C5E4E7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.calclulator-wrap {
+  background-color: #ffffff;
+  display:flex;
+  justify-content:space-between;
+  padding:32px;
+  border-radius: 15px;
+}
+
+.input_panel {
+  width: 413px;
+}
+
+.output_panel {
+  width: 413px;
+  background-color:#00474B;
+  border-radius: 15px;
+  color: #ffffff;
+  padding:40px
+}
+
+.output-data-line{
+  display: flex;
+  justify-content:space-between;
+}
+
+.output-line-title {
+  font-size:16px;
+  color:#ffffff;
+  font-weight:700;
+}
+
+.output-line-subtitle{
+  font-size:13px;
+  color:#7F9D9F;
+  font-weight:700;
+}
+
+
+.output-line-subtitle{
+  font-size:13px;
+  color:#7F9D9F;
+  font-weight:700;
+}
+
+.output-line-value{
+  font-size:48px;
+  color:#26C2AE;
+  font-weight:700;
+}
+.buttonsLine {
+  margin-top:17px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.input_panel {
+  padding:0 48px;
+}
+
+.custom-input {
+  border:none;
+  background-color: #F3F9FA;
+  border-radius: 5px;
+  width:116px;
+  font-weight:700;
+  font-size:24px;
+  text-align:center
+}
+
+.calcLabel {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5E7A7D;
+  margin-top:40px;
+  display:block;
+}
+
+.buttonsWrap {
+  margin: 40px 0;
+}
+
+.submitButtonWrap {
+  margin-top: 135px;
+}

@@ -1,0 +1,35 @@
+.inputField{
+    
+}
+
+.inputFieldWrap{
+    position:relative;
+    margin-top:10px;
+}
+
+.inputFieldLabel {
+    font-size:16px;
+    font-weight:700;
+    color:#5E7A7D;
+}
+
+.inputFieldIcon{
+    position:absolute;
+    top:20px;
+    left:19px;
+ }
+
+ .inputFieldText {
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    border:none;
+    padding:16px 19px;
+    text-align:right;
+    width: 374px;
+ }
+
+ .inputFieldText{
+    font-size: 24px;
+    font-weight:700;
+    color: #00474B;
+ }
