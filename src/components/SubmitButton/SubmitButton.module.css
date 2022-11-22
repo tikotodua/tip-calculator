@@ -8,5 +8,12 @@
     text-align: center;
     padding: 5px 0;
     text-transform:uppercase;
+    width: 100%;
+    cursor: pointer;
+    border:none
 }
+
+.SubmitButton:hover{ 
+    background: #9FE8DF;
+  }
 

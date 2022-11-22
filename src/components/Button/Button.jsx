@@ -3,6 +3,6 @@ import Styles from './Button.module.css'
 
 export default function Button(props) {
   return (
-    <input type='button' value={`${props.title}%`} className={Styles.CalcButton} title={props.title}/>
+    <button className={Styles.CalcButton} value={props.value} title={props.title} onClick={props.onClick}>{`${props.value}%`}</button>
   )
 }

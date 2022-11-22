@@ -12,3 +12,7 @@
     width:117px;
     padding:10px 0;
 }
+
+.CalcButton:hover{ 
+    background: #9FE8DF;
+  }
