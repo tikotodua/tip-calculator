@@ -22,7 +22,6 @@ function App(props) {
   const handleChange = (event) => {
     const title = event.target.getAttribute('title')
     setData({ ...data, [title]: event.target.value });
-    console.log(event.target.value)
   };
 
   useEffect(() => {
@@ -36,9 +35,6 @@ function App(props) {
     setData(initialState);
     setTipAmount(0)
     setTotalTip(0)
-   
-    console.log('initialState',initialState)
-    console.log('data',data)
   };
  
 
